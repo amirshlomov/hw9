@@ -1,5 +1,11 @@
-let x='השואה החלה בשנת 1939'
-alert(x)
+let warEnd=1945
+let warStart=1939
 
-let c='השואה נגמרה בשנת 1945'
-alert(c)
+let x='השואה החלה בשנת '
+alert(x + warStart)
+
+let c='השואה נגמרה בשנת '
+alert(c + warEnd)
+
+
+alert("המלחמה נמשכה " + (warEnd-warStart) + " שנים")
